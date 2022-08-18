@@ -7,8 +7,8 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "13.58.108.120:8081/"
-        NEXUS_REPOSITORY = "java-app"
+        NEXUS_URL = "13.58.108.120:8081"
+        NEXUS_REPOSITORY = "nexus_18"
         NEXUS_CREDENTIAL_ID = "nexus_cred"
     }
     stages {
