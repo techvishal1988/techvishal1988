@@ -33,7 +33,8 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
   
-
+        </plugin>
+      </plugins>
 
     </pluginManagement>
   </build>
