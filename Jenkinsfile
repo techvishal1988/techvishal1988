@@ -42,7 +42,7 @@ pipeline {
                             nexusUrl: '18.216.231.122',
                             groupId: 'pom.com.mycompany.app',
                             version: 'pom.1.0-SNAPSHOT',
-                            repository: 'maven-central',
+                            repository: 'nexus_18',
                             credentialsId: 'nexus_cred',
                             artifacts: [
                                 [artifactId: 'pom.my-app',
