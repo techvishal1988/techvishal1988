@@ -24,7 +24,7 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                    http://3.140.243.107:8081
+                    http://18.219.251.30:8081
                 </sonar.host.url>
             </properties>
         </profile>
@@ -95,7 +95,7 @@
         <version>2.5.2</version>
         </plugin>      
         <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
+          <artifactId>maven-war-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
 				      <archive>
